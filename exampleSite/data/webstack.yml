@@ -3,6 +3,10 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
+    - title: 13号避难所
+      logo: 
+      url: https://www.bn13.com/
+      description: 专业的云端知识库。
     - title: 语雀
       logo: 语雀.webp
       url: https://www.yuque.com/
