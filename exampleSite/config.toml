@@ -12,8 +12,8 @@ publishDir            = "public"				# 站点静态文件保存目录
     author        = ""
     description   = ""
     upload        = "https://bn13.com/forum.php?mod=viewthread&tid=118869"      # 左侧导航栏的"网站提交"
-    about         = "https://bn13.com/forum.php?mod=viewthread&tid=118869"	          # 左侧导航栏的"关于导航"页面(./about)
-    repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
+    about         = "./about"	          # 左侧导航栏的"关于导航"页面(./about)
+    repository    = ""  
     enablePreLoad = true					# 网站完全打开前预加载动画
     textPreLoad   = "避难所导航"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = false					# 默认展开左侧边导航栏
@@ -35,8 +35,8 @@ publishDir            = "public"				# 站点静态文件保存目录
 
 [params.images]
     favicon           = "assets/images/bi-favicon.png"
-    searchImageL      = "assets/images/bg-dna.jpg"		# 搜索部分浅色背景图
-    searchImageD      = "assets/images/bg-dna.jpg"		# 搜索部分深色背景图
+    searchImageL      = ""		# 搜索部分浅色背景图
+    searchImageD      = ""		# 搜索部分深色背景图
     logoExpandLight   = "assets/images/bi-expand-dark.png"
     logoExpandDark    = "assets/images/bi-expand-light.png"
     logoCollapseLight = "assets/images/bi.png"
